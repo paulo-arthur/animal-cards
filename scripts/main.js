@@ -18,7 +18,8 @@ const COLORS = {
     'steel':    "#7b98b3",
     'dragon':   "#03058a",
     'dark':     "#090614",
-    'fairy':    "#f792e6"
+    'fairy':    "#f792e6",
+    'none':     "#ffffff00"
 }
 
 var animals = [];

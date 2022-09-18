@@ -1,7 +1,7 @@
 [
     {
         "name": "Lobo do Ártico",
-        "types": ["ice", "dark"],
+        "types": ["ice", "none"],
         "img": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Canis_lupus_arctos_qtl1.jpg",
         "desc": "O Lobo-do-ártico, também chamado de lobo-polar e lobo-branco, é um mamífero canídeo e é possivelmente uma subespécie do Lobo-cinzento. Habita o Arquipélago Ártico Canadense, desde a Ilha Melville até a Ilha Ellesmere, sobrevivendo à baixas temperaturas.",
         "specs": ["Canis Lupus Arctos", "Uivo"],
@@ -30,5 +30,13 @@
         "desc": "Possui uma 'falsa cabeça' atrás da verdadeira que utiliza para confundir os predadores. Possui espinhos cónicos por todo o corpo excepto na barriga onde são substituídos por protuberâncias. Embora tenha o corpo coberto de espinhos cónicos, a sua extrema lentidão torna-o uma presa fácil.",
         "specs": ["Moloch Horridus", "Esguicho Vulcânico"],
         "att": ["40", "40", "40", "10", "50", "20"]
+    },
+    {
+        "name": "Cervo Folha",
+        "types": ["grass", "normal"],
+        "img": "https://i.ytimg.com/vi/e-XKl2Qr-po/maxresdefault.jpg",
+        "desc": "Durante a época de acasalamento, não ocorre a formação de haréns, de modo que os machos podem cortejar ou defender as fêmeas a qualquer momento. Ao se encontrarem, machos rivais pisoteiam o chão. Indivíduos do sexo masculino tendem a ser territorialistas e bastante agressivos.",
+        "specs": ["Muntiacus putaoensis", "Corrida"],
+        "att": ["60", "20", "50", "20", "40", "35"]
     }
 ]

@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Lobo do Ártico",
+        "types": ["ice", "dark"],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Canis_lupus_arctos_qtl1.jpg",
+        "desc": "O Lobo-do-ártico, também chamado de lobo-polar e lobo-branco, é um mamífero canídeo e é possivelmente uma subespécie do Lobo-cinzento. Habita o Arquipélago Ártico Canadense, desde a Ilha Melville até a Ilha Ellesmere, sobrevivendo à baixas temperaturas.",
+        "specs": ["Canis Lupus Arctos", "Uivo"],
+        "att": ["50", "60", "20", "40", "30", "55"]
+    },
+    {
+        "name": "Flamingo",
+        "types": ["fairy", "flying"],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Caribbean_Flamingo.jpg/1200px-Caribbean_Flamingo.jpg",
+        "desc": "Sua plumagem apresenta uma variação considerável entre o rosa pálido e um rosa mais intenso. As penas de cobertura das asas são rosa vivo, chegando a vermelho-carmim, e as penas de voo são pretas.",
+        "specs": ["Phoenicopterus Roseus", "Voo de Fada"],
+        "att": ["40", "55", "10", "50", "20", "50"]
+    },
+    {
+        "name": "Baleia Azul",
+        "types": ["water", "ghost"],
+        "img": "https://www.unifebe.edu.br/site/wp-content/uploads/2017/05/baleia-azul-divulga%C3%A7%C3%A3o.jpg",
+        "desc": "Longo e esguio, o corpo das baleias-azuis apresenta seu dorso em diferentes tons azuis-acinzentados, enquanto seu ventre é geralmente mais claro. As baleias-azuis são um dos maiores animais que viveram de que se tem conhecimento.",
+        "specs": ["Balaenoptera Musculus", "Choro Submarino"],
+        "att": ["80", "35", "30", "50", "60", "20"]
+    },
+    {
+        "name": "Diabo Espinhoso",
+        "types": ["fire", "ground"],
+        "img": "https://pm1.narvii.com/6296/b5c0442308ef15a1f740d744de614621b135ac0f_hq.jpg",
+        "desc": "Possui uma 'falsa cabeça' atrás da verdadeira que utiliza para confundir os predadores. Possui espinhos cónicos por todo o corpo excepto na barriga onde são substituídos por protuberâncias. Embora tenha o corpo coberto de espinhos cónicos, a sua extrema lentidão torna-o uma presa fácil.",
+        "specs": ["Moloch Horridus", "Esguicho Vulcânico"],
+        "att": ["40", "40", "40", "10", "50", "20"]
+    }
+]

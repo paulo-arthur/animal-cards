@@ -1,0 +1,154 @@
+:root {
+    --default-black: #212529;
+    --shiny-black: #313235;
+    --shadow: #14141495;
+
+    --default-gray: #ccd0d4;
+    --default-white: #EAF6FF;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+.ozone {
+    background-color: var(--default-black);
+    color: var(--default-white);
+}
+
+.ozone .box{
+    background-color: var(--shiny-black);
+    box-shadow: 5px 5px 15px var(--shadow);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+/*Horizontal Menu*/
+
+.ozone .horizontal-menu {
+    width: 100%;
+    padding: 1rem 0;
+
+    background-color: var(--shiny-black);
+}
+
+.ozone .horizontal-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ozone .horizontal-menu li {
+    text-align: center;
+    display: inline;    
+}
+
+.ozone .horizontal-menu li a {
+    color: var(--default-gray);
+    text-align: center;
+    padding: 0.5rem 5vw;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.ozone .horizontal-menu li a:hover{
+    color: var(--default-white);
+}
+
+/*Row & Column*/
+
+.ozone .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+}
+
+.ozone .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+/*Icons*/
+
+.ozone .s-icon {
+    font-size: 15px;
+}
+
+.ozone .m-icon {
+    font-size: 30px;
+}
+
+.ozone .l-icon {
+    font-size: 50px;
+}
+
+.ozone .xl-icon {
+    font-size: 75px;
+}
+
+/*Inputs Style*/
+
+.ozone .text-input {
+    margin: 0.5rem 0;
+    padding: 0.7rem 1rem;
+
+    border-radius: 10px;
+    border: none;
+}
+
+.ozone .text-input::placeholder {
+    text-align: center;
+}
+
+/*Buttons Style*/
+.ozone .button {
+    border: none;
+    border-radius: 10px;
+    background-color: var(--shiny-black);
+    color: var(--default-white);
+
+    margin: 0.5rem 0;
+    padding: 0.2rem 1.5rem;
+}
+
+/*Parallax*/
+.ozone .parallax {
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ozone .parallax > *{
+    margin: 0;
+}
+
+/*Image*/
+.ozone .image {
+    width: 100%;
+}
+
+/*Background Image*/
+.ozone .bc-image {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Footer*/
+
+.ozone .footer {
+    margin-top: 10rem;
+    padding: 4rem 0 1rem 0;
+}
